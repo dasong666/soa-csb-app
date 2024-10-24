@@ -22,6 +22,7 @@ The goal of this lab is to demonstrate an integration project using **Red Hat Bu
   ```plaintext
   Running locally or remote.
   You have the database login credentials.
+  You have configured Queue Table with Queue Name: TESSERACT_QUEUE
 
 - **AMQ 7 Broker Instance:**
   
@@ -29,6 +30,27 @@ The goal of this lab is to demonstrate an integration project using **Red Hat Bu
   Running locally or remote.
   You have the broker admin login credentials
   At least one Acceptor must be configured with TCP protocol enabled
+
+- **Maven Respository:**
+
+  NOTE: Since Oracle "aqapi.jar" is commercially license, this lab is for
+  Educational purposes only.  We're getting the jar from a Maven repo hosted
+  by Virginia Tech.  Add the following to your local Mavens "settings.xml"
+  
+  ```plaintext
+  <repository>
+    <id>middleware</id>
+    <name>Middleware Repository</name>
+    <url>https://git.it.vt.edu/middleware/maven-repo/raw/master</url>
+  </repository>
+
+  Adding the above Maven repo enables this dependency in your POM
+
+  <dependency>
+    <groupId>oracle</groupId>
+    <artifactId>aqapi</artifactId>
+    <version>11.1.1.2.0</version>
+  </dependency>
 
 ### Lab Steps
 
