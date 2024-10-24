@@ -1,0 +1,87 @@
+# Maven target directory
+target/
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+
+# Eclipse files
+.project
+.classpath
+.settings/
+bin/
+
+# NetBeans files
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code files
+.vscode/
+
+# Class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Generated files
+*.rej
+*.orig
+*.bak
+*.tmp
+*.old
+*.swp
+*~
+
+# Mac OS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Idea plugin files
+out/
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# Other
+# Ignore node_modules if using Node.js for frontend
+node_modules/
+
+# Ignore coverage reports
+coverage/
+
+# Ignore build output
+dist/
+build/
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore dependency directories
+vendor/
+
